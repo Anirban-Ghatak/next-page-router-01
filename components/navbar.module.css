@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #4f5456;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 6px;
+}
+.navlinks {
+  list-style: none;
+  display: flex;
+}
+
+.links {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  background-color: black;
+}
+.navbar p {
+  font-size: x-large;
+  color: white;
+}
+
+.navbar p:first-child {
+  font-weight: 700;
+}
